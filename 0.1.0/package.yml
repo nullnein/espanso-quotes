@@ -1,0 +1,23 @@
+# Simple package
+
+name: quotation-marks 
+parent: default
+
+matches:
+  - trigger: ":qb"
+    replace: "„"
+  - trigger: ":qe"
+    replace: "“"
+  - trigger: ":qsb"
+    replace: "‚"
+  - trigger: ":qse"
+    replace: "‘"
+  - trigger: ":fb"
+    replace: "»"
+  - trigger: ":fe"
+    replace: "«"
+  - trigger: ":fsb"
+    replace: "›"
+  - trigger: ":fse"
+    replace: "‹"
+
